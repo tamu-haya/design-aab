@@ -1,0 +1,48 @@
+name: Problem
+description: Report a problem
+labels: ["a: type | concern"]
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe anything that was not covered in the title
+      value: Nothing in particular.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe the expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environments
+    attributes:
+      label: Environments
+      description: Describe the environments in which the problem occurred
+      value: Occurs in all environments.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to reproduce the problem
+      value: This problem does not require steps to reproduce.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Describe any additional information you would like to share
+      value: Nothing in particular.
+    validations:
+      required: true
