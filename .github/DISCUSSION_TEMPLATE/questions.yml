@@ -1,0 +1,20 @@
+labels: ["a: type | concern"]
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe anything that was not covered in the title
+      value: Nothing in particular.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Describe any additional information you would like to share
+      value: Nothing in particular.
+    validations:
+      required: true
