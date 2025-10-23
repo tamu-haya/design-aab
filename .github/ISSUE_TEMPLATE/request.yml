@@ -1,0 +1,39 @@
+name: Request
+description: Send a request for improvement
+labels: ["a: type | improvement"]
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe anything that was not covered in the title
+      value: Nothing in particular.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Describe why it is needed
+    validations:
+      required: true
+
+  - type: textarea
+    id: concerns
+    attributes:
+      label: Concerns
+      description: Describe the current concerns
+      value: Nothing in particular.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Describe any additional information you would like to share
+      value: Nothing in particular.
+    validations:
+      required: true
