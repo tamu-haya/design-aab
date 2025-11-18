@@ -17,19 +17,19 @@ body:
         >
         > - Use formats such as the following where appropriate:
         >
-        >   - bullet points
-        >
         >   - diagrams
         >
         >   - code blocks
         >
         >   - screenshots
+        >
+        >   etc...
 
   - type: "textarea"
     id: "details"
     attributes:
       label: "Details"
-      description: "Describe anything that was not covered in the title"
+      description: "Describe anything that was not explained in the title"
       value: "Nothing in particular."
     validations:
       required: true
