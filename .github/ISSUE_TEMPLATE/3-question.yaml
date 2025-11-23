@@ -1,0 +1,24 @@
+name: "Question"
+description: "Ask a question"
+title: "help: "
+assignees:
+  - "tamu-haya"
+
+body:
+  - type: "textarea"
+    id: "details"
+    attributes:
+      label: "Details"
+      description: "Describe anything that was not explained in the title"
+      value: "Nothing in particular."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "additional-comments"
+    attributes:
+      label: "Additional comments"
+      description: "Describe anything additional you would like to share"
+      value: "Nothing in particular."
+    validations:
+      required: true
