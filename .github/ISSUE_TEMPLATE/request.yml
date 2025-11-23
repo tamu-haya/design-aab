@@ -1,39 +1,41 @@
-name: Request
-description: Send a request for improvement
-labels: ["a: type | improvement"]
+name: "Request: Feature"
+description: "Request a new feature or enhancement"
+title: "feat: "
+assignees:
+  - "tamu-haya"
 
 body:
-  - type: textarea
-    id: details
+  - type: "textarea"
+    id: "details"
     attributes:
-      label: Details
-      description: Describe anything that was not covered in the title
-      value: Nothing in particular.
+      label: "Details"
+      description: "Describe anything that was not explained in the title"
+      value: "Nothing in particular."
     validations:
       required: true
 
-  - type: textarea
-    id: reason
+  - type: "textarea"
+    id: "reasons"
     attributes:
-      label: Reason
-      description: Describe why it is needed
+      label: "Reasons"
+      description: "Describe why this feature is necessary"
     validations:
       required: true
 
-  - type: textarea
-    id: concerns
+  - type: "textarea"
+    id: "concerns"
     attributes:
-      label: Concerns
-      description: Describe the current concerns
-      value: Nothing in particular.
+      label: "Concerns"
+      description: "Describe any current concerns you have"
+      value: "Nothing in particular."
     validations:
       required: true
 
-  - type: textarea
-    id: additional-information
+  - type: "textarea"
+    id: "additional-comments"
     attributes:
-      label: Additional information
-      description: Describe any additional information you would like to share
-      value: Nothing in particular.
+      label: "Additional comments"
+      description: "Describe anything additional you would like to share"
+      value: "Nothing in particular."
     validations:
       required: true
